@@ -19,7 +19,7 @@ const Navbar = ({ setSearch, setPageNumber, showSearch = true }) => {
           <span className="navbar-toggler-icon text-white h4"></span>
         </button>
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
-          <NavLink to="/" className="navbar-brand">
+          <NavLink to="/" className="navbar-brand  me-auto">
             <img
               src={Logo}
               alt=""
@@ -29,11 +29,8 @@ const Navbar = ({ setSearch, setPageNumber, showSearch = true }) => {
             />
           </NavLink>
         </div>
-        <div
-          className="collapse navbar-collapse justify-content-center"
-          id="navbarSupportedContent"
-        >
-          <h1 className="navbar-text text-white">Rick & Morty</h1>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <h1 className="navbar-nav text-white me-auto"> Rick & Morty</h1>
         </div>
         <div
           className="collapse navbar-collapse  justify-content-end"

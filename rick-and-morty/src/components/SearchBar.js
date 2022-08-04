@@ -6,7 +6,7 @@ const Search = ({ setSearch, setPageNumber }) => {
   };
   return (
     <form>
-      <div className="input-group mb-3">
+      <div className="input-group mb-3 text-light  me-auto">
         <input
           onChange={(e) => {
             setPageNumber(1);
@@ -14,7 +14,7 @@ const Search = ({ setSearch, setPageNumber }) => {
           }}
           placeholder="Search for characters"
           type="text"
-          className="p-2 color-white bg-dark border-3"
+          className="p-2 bg-dark border-3 text-light"
         />
         <button className="btn btn-dark p-2 border-3" onClick={searchBtn}>
           Search
